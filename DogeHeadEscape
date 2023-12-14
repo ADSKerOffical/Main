@@ -1,0 +1,125 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Doge head escape", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "Remove doge",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Note: does not work on humanoid doge (player)"
+})
+
+Tab:AddButton({
+	Name = "Godmode",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Telekinesis",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/SAZXHUB/Control-update/main/README.md'),true))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Humanoid doge",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddTextbox({
+	Name = "Speed",
+	Default = "input",
+	TextDisappear = true,
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end	  
+})
+
+Tab:AddButton({
+	Name = "ESP",
+	Callback = function()
+      		loadstring(game:HttpGet(('https://raw.githubusercontent.com/zachisfunny/esp-unversal/main/script'),true))()
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Noclip",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/B5xRxTnk",true))()
+  	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Teleports",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Spawn",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(78.65143585205078, 2.9980247020721436, 492.29901123046875)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cat 1",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-563.8533325195312, 23.99802017211914, 510.760498046875)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cat 2",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-373.1958923339844, -44.3050537109375, 1000.04052734375)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cat 3",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25.072956085205078, 80.79804229736328, 197.23370361328125)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cat 4",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-65.20624542236328, 15.852713584899902, 917.6593017578125)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cat 5",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-191.02467346191406, 4.8581743240356445, 538.8546752929688)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cat 6",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-39.8216438293457, -19.80257797241211, 1391.8638916015625)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "Cat 7",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1780.508544921875, 320.197265625, -674.7744750976562)
+  	end    
+})
+
+Tab:AddButton({
+	Name = "You save cats",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-95.60446166992188, 85.17908477783203, -1057.293212890625)
+  	end    
+})
